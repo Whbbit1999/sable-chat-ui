@@ -6,7 +6,6 @@ export interface IconProps {
   height?: number | string;
   color?: string;
   opacity?: number;
-  children?: any;
 }
 export interface StyledIconInterface {
   color?: string;

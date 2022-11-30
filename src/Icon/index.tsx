@@ -13,7 +13,6 @@ function Icon({
   opacity,
   ...rest
 }: IconProps) {
-  console.log(IconComponent);
   return (
     <ThemeProvider theme={theme}>
       <StyledIcon color={color} opacity={opacity} {...rest}>
@@ -29,7 +28,6 @@ Icon.propTypes = {
   height: PropTypes.oneOf([PropTypes.number, PropTypes.string]),
   color: PropTypes.string,
   opacity: PropTypes.number,
-  children: PropTypes.any,
 };
 
 export default Icon;
