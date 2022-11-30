@@ -5,4 +5,6 @@ export default defineConfig({
   themeConfig: {
     name: 'SableChat',
   },
+  base: '/sable-chat-ui',
+  publicPath: '/sable-chat-ui/',
 });
