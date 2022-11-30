@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksable_chat_ui=self.webpackChunksable_chat_ui||[]).push([[9],{12535:function(i,a,e){e.r(a),e.d(a,{default:function(){return r}});var n=e(66190),u=e(67294),o=function(){var s=(0,n.UO)(),d=s.id,m=(0,n.WF)(),c=m.demos,f=c[d]||{},t=f.component;return t&&(0,u.createElement)(t)},r=o}}]);
