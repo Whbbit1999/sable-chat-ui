@@ -20,7 +20,6 @@ export default () => (
 
 ```jsx
 import { Badge } from 'sable-chat-ui';
-
 export default () => (
   <div>
     <Badge show variant="dot">

@@ -1,9 +1,7 @@
-import React from 'react';
-
 export interface IconProps {
-  icon: React.ReactNode;
-  width?: number | string;
-  height?: number | string;
+  icon: any;
+  width?: number;
+  height?: number;
   color?: string;
   opacity?: number;
 }
@@ -12,6 +10,6 @@ export interface StyledIconInterface {
   opacity?: number;
 }
 export interface IconComponent {
-  width?: number | string;
-  height?: number | string;
+  width?: number;
+  height?: number;
 }

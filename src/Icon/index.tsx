@@ -4,7 +4,6 @@ import theme from 'sable-chat-ui/theme';
 import { ThemeProvider } from 'styled-components';
 import StyledIcon from './style';
 import { IconProps } from './types';
-
 function Icon({
   icon: IconComponent,
   width = 24,
@@ -13,6 +12,7 @@ function Icon({
   opacity,
   ...rest
 }: IconProps) {
+  console.log(IconComponent);
   return (
     <ThemeProvider theme={theme}>
       <StyledIcon color={color} opacity={opacity} {...rest}>
