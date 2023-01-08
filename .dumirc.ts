@@ -9,7 +9,7 @@ export default {
   themeConfig: {
     name: 'SableChat',
   },
-  mfsu: true,
-  base: '/sable-chat-ui',
+  mfsu: false,
+  base: '/sable-chat-ui/',
   publicPath: '/sable-chat-ui/',
 };
