@@ -1,7 +1,7 @@
 export interface BadgeProps {
-  show: boolean;
-  count: number;
-  showZero: boolean;
+  show?: boolean;
+  count?: number;
+  showZero?: boolean;
   children: any;
 }
 

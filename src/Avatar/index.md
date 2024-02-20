@@ -54,6 +54,7 @@ export default () => (
     <Avatar src={avatar1} status="offline" statusIconSize="8px" />
     <Avatar src={avatar1} status="offline" statusIconSize="10px" />
     <Avatar src={avatar1} status="online" statusIconSize="12px" />
+    <Avatar src={avatar1} size="82px" status="online" statusIconSize="12px" />
   </div>
 );
 ```

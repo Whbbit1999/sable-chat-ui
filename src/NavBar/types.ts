@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 
 export interface NavBarProps {
   children: any;
+  profileImage: string;
 }
 export interface MenuIconInterface {
   active: boolean;
@@ -11,8 +12,8 @@ export interface StyledItemInterface {
   active: boolean;
 }
 export interface MenuItemInterface {
-  icon: ReactNode;
-  active: boolean;
-  showBadge: boolean;
-  any: any;
+  icon: ReactNode | any;
+  active?: boolean;
+  showBadge?: boolean;
+  [key: string]: any;
 }

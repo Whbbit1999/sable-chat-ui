@@ -25,11 +25,12 @@ export default () => (
 
 ```jsx
 import { NavBar } from 'sable-chat-ui';
+import face1 from '/public/images/face-male-1.jpg';
 
 export default () => {
   return (
     <div>
-      <NavBar />
+      <NavBar profileImage={face1} />
     </div>
   );
 };

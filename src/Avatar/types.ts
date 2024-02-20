@@ -1,8 +1,8 @@
 export interface AvatarProps {
   src: string;
-  size: string;
+  size?: string;
   status: boolean | 'online' | 'offline';
-  statusIconSize: string;
+  statusIconSize?: string;
 }
 export interface StatusIconProps {
   status: boolean | 'online' | 'offline';
