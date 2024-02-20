@@ -12,3 +12,7 @@ order: 2
 
 - Avatar 组件
 - Badge 组件
+
+## 20240220 主题更新
+
+使用 https://dumi-theme.lobehub.com/ 主题

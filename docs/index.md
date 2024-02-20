@@ -3,10 +3,10 @@ hero:
   title: SableChat UI
   description: 0.0.1
   actions:
-    - text: 文档
-      link: /
+    - text: 快速开始
+      link: /guide/guide
     - text: GitHub
-      link: /
+      link: https://github.com/Whbbit1999/sable-chat-ui
 features:
   - title: Hello
     emoji: 💎

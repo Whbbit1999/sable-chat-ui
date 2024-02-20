@@ -49,6 +49,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "dumi-theme-lobehub": "^1.7.6",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
